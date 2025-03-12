@@ -1,0 +1,66 @@
+/* App.css */
+
+
+
+/* Make input longer */
+.custom-search {
+    width: 30%;  /* Adjust the width as needed */
+      
+    display: block;
+    border-color: black;
+  }
+  
+  /* Center the placeholder text */
+  .custom-search::placeholder {
+    text-align: center;
+  }
+  
+  /* Hide the placeholder when the input is focused */
+  .custom-search:focus::placeholder {
+    opacity: 0;  /* This hides the placeholder text */
+  }
+  .custom-search:focus {
+    border-color:black;  /* Change this to any color you prefer */
+  }
+  .table{
+    margin-top: 30px;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #f8f9fa; /* Light background color for odd rows */
+  } 
+  /* update */
+  .updateBox{
+    display: flex;
+    flex-direction: column; /* Stack the items vertically */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 100vh; /* Take full viewport height */
+    padding: 20px;
+
+
+  }
+  .update-table {
+    display: flex;
+    flex-direction: column; /* Stack the form fields vertically */
+    align-items: center; /* Center the form fields horizontally */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%; /* Make inputs take up the full width of their container */
+    max-width: 400px; /* Optional: Set a maximum width for the form elements */
+  }
+  
+  h5 {
+    margin-bottom: 10px;
+    text-align: left; /* Align the label to the left */
+  }
+  
+  input.form-control {
+    width: 100%; /* Make input fields take up full width */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  /* ................
+   */
+   
