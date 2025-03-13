@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Table from './Table';
 import axios from 'axios';
-import Update from './Update';
+import Update from './update';
 
 export default function App() {
   const [users, setUsers] = useState([]);
